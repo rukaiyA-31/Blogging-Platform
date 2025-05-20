@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Blogging Platform</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>MyBlog</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/editor.html">Write</a></li>
+        <li><a href="pages/login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="featured-posts">
+      <h2>Featured Posts</h2>
+      <div id="featured-container">
+        <div class="post-card">
+          <img src="https://via.placeholder.com/300x180" alt="Featured post">
+          <div class="post-content">
+            <h3>Featured Blog Post</h3>
+            <p>This is an example of a featured blog post summary.</p>
+            <div class="post-meta">
+              <span>By Admin</span>
+              <span>May 20, 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="all-posts">
+      <h2>All Posts</h2>
+      <input type="text" id="searchBar" placeholder="Search posts..." />
+      <div id="posts-container">
+        <div class="post-card">
+          <img src="https://via.placeholder.com/300x180" alt="Blog post">
+          <div class="post-content">
+            <h3>Sample Blog Post 1</h3>
+            <p>This is an example of a blog post summary.</p>
+            <div class="post-meta">
+              <span>By Author</span>
+              <span>May 15, 2025</span>
+            </div>
+          </div>
+        </div>
+        <div class="post-card">
+          <img src="https://via.placeholder.com/300x180" alt="Blog post">
+          <div class="post-content">
+            <h3>Sample Blog Post 2</h3>
+            <p>Another example of a blog post summary.</p>
+            <div class="post-meta">
+              <span>By Author</span>
+              <span>May 10, 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h2>Subscribe to our Newsletter</h2>
+      <form id="newsletter-form">
+        <input type="email" id="newsletter-email" placeholder="Your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+      <div id="newsletter-message"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MyBlog. All rights reserved.</p>
+    <ul class="social-icons">
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">LinkedIn</a></li>
+    </ul>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+</html>
