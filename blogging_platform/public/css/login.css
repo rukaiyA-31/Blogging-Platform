@@ -1,0 +1,12 @@
+form {
+  max-width: 300px;
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+}
